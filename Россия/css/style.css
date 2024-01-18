@@ -1,0 +1,2161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body{
+    background: #2A2C2F;
+    width: 1440px;
+}
+
+header{
+    margin: 0 auto;
+}
+
+.header{
+    max-width: 100%;
+    width: 1240px;
+    height: 50px;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.list{
+    font-family: Inter, sans-serif;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.main{
+    display: block;
+    width: 100%;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.main__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1240px;
+}
+
+.lead{
+    flex-shrink: 0;
+    margin: 0 auto;
+    max-width: 985px;
+    height: 950px;
+}
+
+.lead__title{
+    margin: 10px auto;
+    width: 782px;
+    height: 184px;
+    text-align: center;
+    font-family: Inter ,sans-serif;
+    font-size: 96px;
+    font-weight: 900;
+    color: white;
+}
+
+.lead__subtitle{
+    margin: 48px auto;
+    width: 583px;
+    height: 65px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.lead__vectors {
+    position: relative;
+    display: inline-block; 
+  }
+  
+.lead__vectors img { /* <= optional, for responsiveness */
+     display: block;
+     max-width: 100%;
+     height: auto;
+}
+
+svg{
+    object-fit: cover;
+    display: block;
+}
+  
+.vector_1 {
+    position: absolute;
+    top: 155px;
+    left: 45px;
+}
+
+.vector__ellepse1{
+    position: absolute;
+    top: 235px;
+    left: 40px;
+}
+
+.vector__ellepse2{
+    position: absolute;
+    top: 152px;
+    left: 126px;
+}
+
+.vector__ellepse3{
+    position: absolute;
+    top: 275px;
+    left: 235px;
+}
+
+.vector__ellepse4{
+    position: absolute;
+    top: 300px;
+    left: 265px;
+}
+
+.vector__ellepse5{
+    position: absolute;
+    top: 242px;
+    left: 350px;
+}
+
+.vector__ellepse6{
+    position: absolute;
+    top: 282px;
+    left: 425px;
+}
+
+.vector__ellepse7{
+    position: absolute;
+    top: 310px;
+    left: 533px;
+}
+
+.vector__ellepse8{
+    position: absolute;
+    top: 250px;
+    left: 563px;
+}
+
+.vector__ellepse9{
+    position: absolute;
+    top: 292px;
+    left: 625px;
+}
+
+.vector__ellepse10{
+    position: absolute;
+    top: 279px;
+    left: 730px;
+}
+
+.vector__ellepse11{
+    position: absolute;
+    top: 232px;
+    left: 867px;
+}
+
+.vector__ellepse12{
+    position: absolute;
+    top: 258px;
+    left: 930px;
+}
+
+.vector__pskov{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+
+.vector__novgorod{
+    position: absolute;
+    top: 120px;
+    left: 93px;
+}
+
+.vector__tver{
+    position: absolute;
+    top: 275px;
+    left: 185px;
+}
+
+.vector__yarik{
+    position: absolute;
+    top: 295px;
+    left: 282px;
+}
+  
+.vector__manturovo{
+    position: absolute;
+    top: 237px;
+    left: 363px;
+}
+
+.vector__kotelnich{
+    position: absolute;
+    top: 265px;
+    left: 412px;
+}
+
+.vector__glazov{
+    position: absolute;
+    top: 305px;
+    left: 550px;
+}
+
+.vector__perm{
+    position: absolute;
+    top: 240px;
+    left: 565px;
+}
+
+.vector__tumen{
+    position: absolute;
+    top: 280px;
+    left: 630px;
+}
+
+.vector__omsk{
+    position: absolute;
+    top: 249px;
+    left: 715px;
+}
+
+.vector__krasnoyarsk{
+    position: absolute;
+    top: 219px;
+    left: 829px;
+}
+
+.vector__uu{
+    position: absolute;
+    top: 274px;
+    left: 910px;
+}
+
+.lead__caption{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.intro{
+    padding-top: 50px;
+    margin: auto;
+    width: 985px;
+    display: flex;
+}
+
+.intro__title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.intro__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    width: 985px;
+}
+
+.intro__addition{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.intro__subtitle{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.intro__text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+    width: 653px;
+}
+
+.intro__author{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 280px;
+    width: 100%;
+    line-height: 20px;
+}
+
+.intro__textinfo{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+span{
+    font-weight: 700;
+}
+
+.photo{
+    display: flex;
+    margin: 90px 0;
+}
+
+
+.photo__layout{
+    max-width: 1240px;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+}
+
+.photo__item{
+    position: relative;
+}
+
+.photo__item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.places{
+    width: 985px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.place__russia{
+    width: 100%;
+}
+
+.place__name_1{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 709px;
+}
+
+.place__name_2{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 775px;
+}
+
+.place__name_3{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 687px;
+}
+
+.place__name_4{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 815px;
+}
+
+.place__name_5{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 769px;
+}
+
+.place__info{
+}
+
+.place__description{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 40px auto;
+}
+
+.place__title{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    width: 450px;
+}
+
+.place__url{
+    color: #AAA;
+    font-size: 12px;
+}
+
+.place__links{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.place__text p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 384px;
+    margin-bottom: 35px;
+}
+
+.video{
+    margin: 52px auto;
+}
+
+.video__wrapper{
+    width: 1184px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.video__content__title{
+    margin: 0 auto;
+    width: 800px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.video__content__subtitle{
+    width: 640px;
+    margin: 48px 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.video__container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 1184px;
+    height: 342px;
+}
+
+.video__img{
+    position: relative;
+    display: inline-block;
+    
+    border-radius: 5px;
+    opacity: 0.5;
+    background: #000;
+}
+
+.video__img img { /* <= optional, for responsiveness */
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.play {
+    position: relative;
+    left: 10px;
+    bottom: 310px;
+}
+
+.video__text{
+    position: relative;
+    left: 20px;
+    bottom: 200px;
+}
+
+.video__duration{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 108.92%; /* 13.07px */
+    letter-spacing: 3.6px;
+    margin-bottom: 10px;
+}
+
+.video__title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 108.92%; /* 13.07px */
+    width: 322px;
+    margin-bottom: 10px;
+}
+
+.video__subtitle{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 108.92%; /* 13.07px */
+}
+
+.additional__wrapper{
+    width: 1184px;
+    height: 690px;
+}
+
+.additional__title{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 90.767%; /* 65.352px */
+    margin-bottom: 48px;
+}
+
+.additional__subtitle{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 145.227%; /* 34.855px */
+}
+
+.additional__card{
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    margin: 62px 0;
+    gap: 15px;
+}
+
+.additional__image{
+    opacity: 0.5;
+    color: #000;
+    object-fit: cover;
+}
+
+.card__title{
+    width: 248px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.card__subtitle{
+    margin-top: 150px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card__text{
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+
+    width: 248px;
+}
+
+.comments__wrapper{}
+
+.comments__title{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.comments__subtitle{
+    margin: 48px auto;
+    width: 640px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.comments__container{
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+}
+
+.comments__quote{
+    margin: 15px 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.comments__author{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.comments__authors{
+    width: 382px;
+    height: 213px;
+    flex-shrink: 0;
+}
+
+.images{
+    border-radius: 70px;
+}
+
+.cover{
+    width: 1184px;
+    margin: 140px 0 0px;
+}
+
+.cover__image{
+    opacity: 0.5;
+    color: #2A2C2F;
+}
+
+.cover__title{
+    position: relative;
+    bottom: 350px;
+    color: #FFFDFD;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.cover__subtitle{
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+    width: 382px;
+    text-align: center;
+    color: #FFFDFD;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.emblem__title{
+    width: 443px;
+    margin-bottom: 35px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.items__gerbs{
+    display: flex;
+    flex-direction: row;
+    gap: 66px;
+}
+
+.items__title{
+    width: 178px;
+    color: #CCC;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.barentsburg{
+    margin: 120px 0;
+}
+
+.bar__title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.bar__coord{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.bar__text{
+    margin-top: 35px;
+    width: 380px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bar__url-head{
+    position: relative;
+    bottom: 75px;
+    left: 500px;
+    color: #AAA;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    max-width: 100px;
+}
+
+.bar__link{
+    position: relative;
+    bottom: 60px;
+    left: 500px;
+    display: inline-block;
+    width: 282px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    position: relative;
+    left: 100px;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin-bottom: 30px;
+}
+
+.footer__links{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer__copyright{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1280px){
+    .comments__title{
+        width: 1180px;
+    }
+
+    .comments__subtitle{
+        margin: 28px 0;
+        width: 640px;
+        position: relative;
+        left: 250px;
+    }
+
+    .comments__authors{
+        max-width: 312px;
+        width: 100%;
+    }
+
+    .comments__container{
+        max-width: 1000px;
+        width: 100%;
+        position: relative;
+        left: 125px;
+    }
+
+    .items__gerbs{
+        width: 100%;
+        max-width: 1180px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
+    .header{
+        margin: 40px auto;
+        max-width: 928px;
+    }
+
+    .photo__layout{
+        width: 100%;
+        max-width: 928px;
+    }
+
+    .main{
+        width: 1024px;
+    }
+
+    .main__wrapper {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 928px;
+    }
+
+    .lead{
+        width: 928px;
+    }
+
+    .intro{
+        width: 928px;
+    }
+
+    .additional__image{
+        object-fit: cover;
+        width: 240px;
+    }
+
+    .card__text {
+        position: relative;
+        bottom: 270px;
+        left: 10px;
+        width: 235px;
+        height: 75px;
+    }
+
+    .card__title{
+        font-size: 24px;
+        width: 238px;
+    }
+
+    .card__subtitle{
+        width: 238px;
+        margin-top: 130px;
+    }
+
+    .places{
+        width: 928px;
+    }
+
+    .place__title{
+        margin-left: 30px;
+    }
+
+    .place__description{
+        display: flex;
+        margin: 40px 32px;
+    }
+
+    .video__wrapper{
+        width: 100%;
+        max-width: 1024px;
+    }
+
+    .additional{
+        right: 50px;
+        position: relative;
+        width: 991px;
+    }
+
+    .additional__wrapper{
+        left: 25px;
+        position: relative;
+        width: 100%;
+        max-width: 991px;
+    }
+
+    .additional__card{
+        width: 100%;
+        max-width: 991px;
+    }
+ 
+    .video__container{
+        width: 100%;
+        max-width: 1024px;
+        object-fit: cover;
+    }
+
+    .video__img{
+        object-fit: cover;
+        width: 456px;
+    }
+
+    .play {
+        position: relative;
+        left: 20px;
+        bottom: 230px;
+    }
+
+    .comments__authors{
+        width: 326px;
+    }
+
+    .comments {
+        position: relative;
+        left: 10px;
+    }
+
+    .comments__title {
+        width: 850px;
+        margin-left: 0;
+    }
+
+    .comments__container{
+        gap: 7px;
+    }
+
+    .comments__authors{
+        width: 286px;
+    }
+
+    .cover{
+        position: relative;
+        right: 50px;
+        width: 1024px;
+    }
+
+    .cover__image{
+        object-fit: fill;
+        width: 1024px;
+        height: 590px;
+    }
+
+    .cover__title{
+        width: 1000px;
+    }
+
+    .cover__subtitle{
+        left: 300px;
+        bottom: 200px;
+    }
+
+    .items__gerbs{
+        gap: 16px;
+    }
+
+    .items__image{
+        object-fit: cover;
+        width: 155px;
+    }
+
+    .map{
+        margin: 30px 0;
+        position: relative;
+        right: 50px;
+        object-fit: fill;
+        width: 1024px;
+        height: 464px;
+    }
+
+    .footer{
+        display: flex;
+        width: 928px;
+        max-width: 100%;
+    }
+
+    .vector_1{
+        width: 830px;
+        max-width: 100%;
+    }
+
+    .vector__ellepse2 {
+        position: absolute;
+        top: 160px;
+        left: 122px;
+    }
+    
+    .vector__ellepse3 {
+        position: absolute;
+        top: 275px;
+        left: 222px;
+    }
+
+    .vector__ellepse4 {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    }
+
+    .vector__ellepse5 {
+    position: absolute;
+    top: 242px;
+    left: 330px;
+    }
+
+    .vector__ellepse6 {
+        position: absolute;
+        top: 282px;
+        left: 415px;
+    }
+
+    .vector__ellepse7 {
+        position: absolute;
+        top: 310px;
+        left: 502px;
+    }
+
+    .vector__ellepse8 {
+        position: absolute;
+        top: 250px;
+        left: 533px;
+    }
+
+    .vector__ellepse9 {
+        position: absolute;
+        top: 292px;
+        left: 590px;
+    }
+
+    .vector__ellepse10 {
+        position: absolute;
+        top: 279px;
+        left: 685px;
+    }
+
+    .vector__ellepse11 {
+        position: absolute;
+        top: 232px;
+        left: 815px;
+    }
+    
+    .vector__ellepse12 {
+        position: absolute;
+        top: 257px;
+        left: 870px;
+    }
+
+    .vector__novgorod {
+        position: absolute;
+        top: 130px;
+        left: 93px;
+    }
+
+    .vector__tver {
+        position: absolute;
+        top: 275px;
+        left: 175px;
+    }
+
+    .vector__yarik {
+        position: absolute;
+        top: 295px;
+        left: 270px;
+    }
+
+    .vector__manturovo {
+        position: absolute;
+        top: 237px;
+        left: 343px;
+    }
+
+    .vector__glazov {
+        position: absolute;
+        top: 304px;
+        left: 520px;
+    }
+
+    .vector__perm {
+        position: absolute;
+        top: 240px;
+        left: 545px;
+    }
+
+    .vector__tumen {
+        position: absolute;
+        top: 275px;
+        left: 595px;
+    }
+
+    .vector__omsk {
+        position: absolute;
+        top: 294px;
+        left: 685px;
+    }
+
+    .vector__krasnoyarsk {
+        position: absolute;
+        top: 213px;
+        left: 819px;
+    }
+
+    .vector__uu {
+        position: absolute;
+        top: 274px;
+        left: 850px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        width: 768px;
+    }
+
+    .header{
+        margin: 40px auto;
+        max-width: 720px;
+    }
+
+    .lang{
+        font-size: 20px;
+    }
+
+    .langg{
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .main{
+        width: 768px;
+    }
+
+    .main__wrapper{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 768px;
+    }
+
+    .lead{
+        max-width: 100%;
+        width: 720px;
+        height: 800px;
+    }
+
+    .lead__title{
+        width: 722px;
+    }
+
+    .lead__img{
+        width: 768px;
+        max-width: 100%;
+    }
+
+    .intro{
+        width: 720px;
+    }
+
+    .intro__addition{
+        flex-direction: column-reverse;
+        gap: 45px;
+    }
+
+    .photo{
+        margin: 90px 25px;
+    }
+
+    .photo__layout{
+        width: 100%;
+        max-width: 720px;
+    }
+
+    .places{
+        width: 758px;
+    }
+
+    .place__russia{
+        width: 758px;
+    }
+
+    .place__name_1{
+        width: 520px;
+    }
+
+    .place__name_2{
+        width: 585px;
+    }
+
+    .place__name_3{
+        width: 500px;
+    }
+
+    .place__name_4{
+        width: 630px;
+    }
+
+    .place__name_5{
+        width: 580px;
+    }
+
+    .place__title{
+        width: 350px;
+        font-size: 42px;
+    }
+
+    .place__image{
+        object-fit: cover;
+        width: 375px;
+        height: 340px;
+    }
+
+    .place__text p{
+        width: 322px;
+    }
+
+    .video__wrapper{
+        width: 100%;
+        max-width: 720px;
+        height: 500px;
+    }
+
+    .video__content__title{
+        font-size: 42px;
+        width: 450px;
+    }
+
+    .video__content__subtitle{
+        position: relative;
+        right: 80px;
+    }
+
+    .video__container{
+        width: 100%;
+        max-width: 720px;
+    }
+
+    .video__img{
+        width: 352px;
+    }
+
+    .play{
+        bottom: 180px;
+    }
+
+    .video__text{
+        bottom: 160px;
+    }
+
+    .video__title{
+        font-size: 24px;
+    }
+
+    .additional{
+        width: 640px;
+        position: relative;
+        left: 60px;
+    }
+
+    .additional__wrapper{
+        width: 640px;
+        height: 850px;
+        margin: 0 auto;
+    }
+
+    .additional__card{
+        width: 504px;
+        height: 600px;
+        flex-wrap: wrap;
+        position: relative;
+        left: 80px;
+    }
+
+    .additional__item{
+        height: 300px;
+    }
+
+    .comments{
+        width: 728px;
+        position: relative;
+        left: 30px;
+    }
+
+    .comments__title{
+        position: relative;
+        left: 60px;
+        font-size: 42px;
+        width: 600px;
+    }
+    .comments__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comments__authors{
+        margin: 0 auto;
+        width: 295px;
+        height: 328px;
+    }
+
+    .images{
+        position: relative;
+        left: 70px;
+    }
+
+    .cover{
+        left: 1px;
+        position: relative;
+        width: 768px;
+    }
+
+    .cover__image{
+        width: 768px;
+        height: 500px;
+    }
+
+    .cover__title{
+        width: 700px;
+    }
+
+    .cover__subtitle{
+        left: 180px;
+        bottom: 250px;
+    }
+
+    .items__gerbs{
+        flex-wrap: wrap;
+    }
+
+    .emblem{
+        position: relative;
+        left: 70px;
+        width: 640px;
+    }
+
+    .barentsburg{
+        width: 720px;
+    }
+
+    .map{
+        margin: 30px 0;
+        object-fit: fill;
+        width: 768px;
+        height: 362px;
+        left: 1px;
+        position: relative;
+    }
+
+    .bar__coord{
+        position: relative;
+        left: 40px;
+    }
+
+    .bar__title{
+        position: relative;
+        left: 40px;
+    }
+
+    .bar__text{
+        left: 40px;
+        position: relative;
+    }
+
+    .bar__url-head{
+        bottom: 75px;
+        left: 470px;
+    }
+
+    .bar__link{
+        bottom: 60px;
+        left: 470px;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        width: 768px;
+        max-width: 100%;
+        left: 0;
+    }
+
+    .footer__links{
+        font-size: 18px;
+    }
+
+    .vector_1{
+        width: 670px;
+        max-width: 100%;
+        top: 90px;
+        left: 25px;
+    }
+
+    .vector__ellepse1 {
+        position: absolute;
+        top: 174px;
+        left: 20px;
+    }
+
+    .vector__ellepse2 {
+        position: absolute;
+        top: 110px;
+        left: 85px;
+    }
+    
+    .vector__ellepse3 {
+        position: absolute;
+        top: 205px;
+        left: 166px;
+    }
+
+    .vector__ellepse4 {
+    position: absolute;
+    top: 219px;
+    left: 192px;
+    }
+
+    .vector__ellepse5 {
+    position: absolute;
+    top: 181px;
+    left: 257px;
+    }
+
+    .vector__ellepse6 {
+        position: absolute;
+        top: 208px;
+        left: 315px;
+    }
+
+    .vector__ellepse7 {
+        position: absolute;
+        top: 225px;
+        left: 395px;
+    }
+
+    .vector__ellepse8 {
+        position: absolute;
+        top: 186px;
+        left: 415px;
+    }
+
+    .vector__ellepse9 {
+        position: absolute;
+        top: 218px;
+        left: 465px;
+    }
+
+    .vector__ellepse10 {
+        position: absolute;
+        top: 207px;
+        left: 542px;
+    }
+
+    .vector__ellepse11 {
+        position: absolute;
+        top: 172px;
+        left: 645px;
+    }
+    
+    .vector__ellepse12 {
+        position: absolute;
+        top: 190px;
+        left: 690px;
+    }
+
+    .vector__pskov{
+        position: absolute;
+        top: 195px;
+        left: 5px;
+    }
+
+    .vector__novgorod {
+        position: absolute;
+        top: 80px;
+        left: 53px;
+    }
+
+    .vector__tver {
+        position: absolute;
+        top: 205px;
+        left: 120px;
+    }
+
+    .vector__yarik {
+        position: absolute;
+        top: 220px;
+        left: 208px;
+    }
+
+    .vector__manturovo {
+        position: absolute;
+        top: 170px;
+        left: 270px;
+    }
+
+    .vector__kotelnich{
+        position: absolute;
+        top: 195px;
+        left: 302px;
+    }
+
+    .vector__glazov {
+        position: absolute;
+        top: 223px;
+        left: 410px;
+    }
+
+    .vector__perm {
+        position: absolute;
+        top: 180px;
+        left: 425px;
+    }
+
+    .vector__tumen {
+        position: absolute;
+        top: 205px;
+        left: 475px;
+    }
+
+    .vector__omsk {
+        position: absolute;
+        top: 225px;
+        left: 530px;
+    }
+
+    .vector__krasnoyarsk {
+        position: absolute;
+        top: 153px;
+        left: 605px;
+    }
+
+    .vector__uu {
+        position: absolute;
+        top: 215px;
+        left: 650px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    body{
+        width: 375px;
+    }
+
+    .main{
+        width: 375px;
+    }
+
+    .header{
+        margin: 40px auto;
+        max-width: 350px;
+    }
+
+    .main__wrapper {
+        margin: 0;
+        max-width: 100%;
+        width: 375px;
+    }
+
+    .lead{
+        height: 450px;
+    }
+
+    .lead__title{
+        font-size: 48px;
+        width: 350px;
+        height: 70px;
+    }
+
+    .lead__subtitle{
+        font-size: 20px;
+        width: 350px;
+        margin: 60px 20px 0px 20px;
+    }
+
+    .intro{
+        width: 350px;
+    }
+
+    .intro__title{
+        font-size: 32px;
+        width: 300px;
+    }
+
+    .intro__subtitle{
+        font-size: 24px;
+        width: 300px;
+    }
+
+    .intro__addition{
+        gap: 25px;
+    }
+
+    .intro__text{
+        width: 360px;
+    }
+
+    .photo{
+        margin: 50px 25px;
+    }
+
+    .places{
+        margin: 0;
+        width: 375px;
+    }
+
+    .place__russia{
+        max-width: 375px;
+        width: 100%;
+    }
+
+    .place__description{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .place__text{
+        width: 350px;
+        position: relative;
+        left: 15px;
+    }
+
+    .place__name_1{
+        flex-direction: column;
+        align-items: baseline;
+        width: 375px;
+        height: 100px;
+    }
+
+    .place__title{
+        position: relative;
+        margin-left: 0;
+        left: 15px;
+    }
+
+    .place__info{
+        position: relative;
+        left: 15px;
+    }
+
+    .place__name_2{
+        flex-direction: column;
+        align-items: baseline;
+        width: 375px;
+        height: 100px;
+    }
+
+    .place__name_3{
+        flex-direction: column;
+        align-items: baseline;
+        width: 375px;
+        height: 100px;
+    }
+
+    .place__name_4{
+        flex-direction: column;
+        align-items: baseline;
+        width: 375px;
+        height: 100px;
+    }
+
+    .place__name_5{
+        flex-direction: column;
+        align-items: baseline;
+        width: 375px;
+        height: 100px;
+    }
+
+    .video__wrapper{
+        height: 650px;
+    }
+
+    .video__content__title{
+        font-size: 32px;
+        width: 350px;
+    }
+
+    .video__content__subtitle{
+        right: 0;
+        margin: 20px 0;
+        width: 350px;
+    }
+
+    .video__container{
+        margin: 100px 0;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .video__text{
+        width: 250px;
+    }
+
+    .video_q{
+        height: 200px;
+    }
+
+    .additional{
+        width: 375px;
+        left: 0;
+    }
+
+    .additional__wrapper{
+        left: 0;
+        margin: 0 auto;
+        width: 375px;
+        height: 1700px;
+    }
+    
+    .additional__title{
+        position: relative;
+        right: 5px;
+    }
+
+    .additional__subtitle{
+        position: relative;
+        right: 5px;
+    }
+
+    .additional__card{
+        margin: 20px 45px;
+        left: 0;
+        width: 300px;
+        height: 1400px;
+    }
+
+    .additional__image{
+        width: 284px;
+    }
+
+    .card__text{
+        height: 280px;
+        bottom: 300px;
+        left: 20px;
+    }
+
+    .card__subtitle{
+        margin-top: 160px;
+    }
+
+    .card__subtitle:nth-child(3){
+        margin-top: 250px;
+    }
+
+    .comments{
+        width: 375px;
+        left: 0;
+    }
+
+    .comments__title{
+        margin: 20px;
+        left: 0;
+        font-size: 32px;
+        width: 340px;
+    }
+
+    .comments__subtitle{
+        left: 0;
+        font-size: 20px;
+        width: 340px;
+    }
+
+    .cover{
+        margin: 10px 0 0;
+        left: 0;
+        width: 375px;
+        height: 282px;
+    }
+
+    .cover__image{
+        width: 375px;
+        height: 272px;
+    }
+
+    .cover__title{
+        font-size: 32px;
+        width: 350px;
+        bottom: 200px;
+        left: 10px;
+    }
+
+    .cover__subtitle{
+        font-size: 14px;
+        width: 250px;
+        bottom: 170px;
+        left: 60px;
+    }
+
+    .emblem{
+        left: 0;
+        width: 350px;
+    }
+
+    .emblem__title{
+        margin: 50px 20px;
+        text-align: center;
+        width: 343px;
+        font-size: 32px;
+    }
+
+    .items__gerbs{
+        justify-content: center;
+    }
+
+    .items__image{
+        width: 186px;
+        height: 226px;
+    }
+    
+    .barentsburg{
+        width: 375px;
+    }
+
+    .bar__title{
+        font-size: 32px;
+        left: 0;
+    }
+
+    .bar__coord{
+        font-size: 26px;
+        left: 0;
+    }
+
+    .map{
+        width: 375px;
+        height: 184px;
+    }
+
+    .bar__text{
+        width: 375px;
+        font-size: 18px;
+        top: 90px;
+        left: 0;
+    }
+
+    .bar__url-head{
+        left: 0;
+        right: 50px;
+        bottom: 80px;
+    }
+
+    .bar__link{
+        right: 50px;
+        left: 0;
+    }
+
+    .footer{
+        width: 375px;
+    }
+
+    .footer__list{
+        flex-direction: column;
+    }
+
+    .footer__copyright{
+        margin: 200px 0px 0px 0px;
+        position: relative;
+        right: 120px;
+    }
+
+    .vector_1{
+        width: 360px;
+        max-width: 100%;
+        top: 0;
+        left: 5px;
+    }
+
+    .vector__ellepse1 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 88px;
+        left: 5px;
+    }
+
+    .vector__ellepse2 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 56px;
+        left: 37px;
+    }
+    
+    .vector__ellepse3 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 105px;
+        left: 80px;
+    }
+
+    .vector__ellepse4 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 115px;
+        left: 95px;
+    }
+
+    .vector__ellepse5 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 94px;
+        left: 130px;
+    }
+
+    .vector__ellepse6 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 109px;
+        left: 160px;
+    }
+
+    .vector__ellepse7 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 115px;
+        left: 205px;
+    }
+
+    .vector__ellepse8 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 99px;
+        left: 220px;
+    }
+
+    .vector__ellepse9 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 114px;
+        left: 240px;
+    }
+
+    .vector__ellepse10 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 108px;
+        left: 283px;
+    }
+
+    .vector__ellepse11 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 89px;
+        left: 339px;
+    }
+    
+    .vector__ellepse12 {
+        width: 3.662px;
+        height: 3.66px;
+        position: absolute;
+        top: 100px;
+        left: 361px;
+    }
+
+    .vector__pskov{
+        width: 25.231px;
+        height: 25.845px;
+        position: absolute;
+        top: 85px;
+        left: 5px;
+    }
+
+    .vector__novgorod {
+        width: 35.084px;
+        height: 35.711px;
+        position: absolute;
+        top: 30px;
+        left: 23px;
+    }
+
+    .vector__tver {
+        width: 20.143px;
+        height: 20.769px;
+        position: absolute;
+        top: 95px;
+        left: 57px;
+    }
+
+    .vector__yarik {
+        width: 35.053px;
+        height: 35.845px;
+        position: absolute;
+        top: 100px;
+        left: 103px;
+    }
+
+    .vector__manturovo {
+        width: 32.749px;
+        height: 32.845px;
+        position: absolute;
+        top: 75px;
+        left: 135px;
+    }
+
+    .vector__kotelnich{
+        width: 40.169px;
+        height: 40.845px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 85px;
+        left: 160px;
+    }
+
+    .vector__glazov {
+        width: 19.848px;
+        height: 19.845px;
+        position: absolute;
+        top: 105px;
+        left: 210px;
+    }
+
+    .vector__perm {
+        width: 18.299px;
+        height: 18.769px;
+        position: absolute;
+        top: 85px;
+        left: 222px;
+    }
+
+    .vector__tumen {
+        width: 22.943px;
+        height: 22.845px;
+        position: absolute;
+        top: 97px;
+        left: 240px;
+    }
+
+    .vector__omsk {
+        width: 15.185px;
+        height: 15.845px;
+        position: absolute;
+        top: 110px;
+        left: 280px;
+    }
+
+    .vector__krasnoyarsk {
+        width: 35.817px;
+        height: 35.845px;
+        position: absolute;
+        top: 65px;
+        left: 325px;
+    }
+
+    .vector__uu {
+        width: 25.833px;
+        height: 25.477px;
+        position: absolute;
+        top: 100px;
+        left: 345px;
+    }
+}
